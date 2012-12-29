@@ -14,19 +14,25 @@
 {
     [super setUp];
     
-    // Set-up code here.
+    five = [[Dollar alloc] initWithValue: 5];
 }
 
 - (void)tearDown
 {
-    // Tear-down code here.
+    [five release];
     
     [super tearDown];
 }
 
-- (void)testExample
+-(void) testMultiplication
 {
-    STFail(@"Unit tests are not implemented yet in TDDExampleTests");
+    Dollar *product = [five times: 2];
+    
+    STAssertEquals(10, product.amount, @"");
+    
+    product = [five times: 3];
+    
+    STAssertEquals(15, product.amount, @"");
 }
 
 @end

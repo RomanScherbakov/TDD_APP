@@ -24,6 +24,7 @@
 		C37E5533168F04FB0035AD11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37E550B168F04FA0035AD11 /* Foundation.framework */; };
 		C37E553B168F04FB0035AD11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C37E5539168F04FB0035AD11 /* InfoPlist.strings */; };
 		C37E553E168F04FB0035AD11 /* TDDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C37E553D168F04FB0035AD11 /* TDDExampleTests.m */; };
+		C37E5549168F087F0035AD11 /* Dollar.m in Sources */ = {isa = PBXBuildFile; fileRef = C37E5548168F087F0035AD11 /* Dollar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		C37E553A168F04FB0035AD11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C37E553C168F04FB0035AD11 /* TDDExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDExampleTests.h; sourceTree = "<group>"; };
 		C37E553D168F04FB0035AD11 /* TDDExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDExampleTests.m; sourceTree = "<group>"; };
+		C37E5547168F087F0035AD11 /* Dollar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dollar.h; sourceTree = "<group>"; };
+		C37E5548168F087F0035AD11 /* Dollar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dollar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 		C37E54FA168F04FA0035AD11 = {
 			isa = PBXGroup;
 			children = (
+				C37E5547168F087F0035AD11 /* Dollar.h */,
+				C37E5548168F087F0035AD11 /* Dollar.m */,
 				C37E550F168F04FA0035AD11 /* TDDExample */,
 				C37E5536168F04FB0035AD11 /* TDDExampleTests */,
 				C37E5508168F04FA0035AD11 /* Frameworks */,
@@ -277,6 +282,7 @@
 				C37E5516168F04FA0035AD11 /* main.m in Sources */,
 				C37E551A168F04FB0035AD11 /* AppDelegate.m in Sources */,
 				C37E5523168F04FB0035AD11 /* ViewController.m in Sources */,
+				C37E5549168F087F0035AD11 /* Dollar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

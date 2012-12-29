@@ -7,7 +7,13 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "Dollar.h"
 
 @interface TDDExampleTests : SenTestCase
+{
+    Dollar *five;
+}
+
+-(void) testMultiplication;
 
 @end
